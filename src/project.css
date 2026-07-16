@@ -1,0 +1,76 @@
+
+.project-card{
+    margin-top: 10px;
+    border: 1px solid ;
+    width: 360px;
+    height: 430px;
+    padding: 20px;
+border-radius: 20px;
+    
+}
+.project-card img{
+    width: 100%;
+  
+
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+.projectFlow{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap : 20px;
+}
+
+.tech-stack{
+    display: flex;
+    gap: 10px;
+    
+  
+}
+
+.tech-stack > div {
+    border: 1px solid;
+    
+ 
+    padding: 4px 4px;
+
+}
+.tech-stack > div > h1{
+    font-size: 12px;
+    
+}
+
+.projectInfo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projectInfo > div > h2{
+    font-size: 20px;
+    font-weight: 600;
+}
+.projectInfo > div > p {
+    font-size: 14px;
+    
+}
+.pjo{
+display: flex;
+align-items: center;
+gap: 30px;
+}
+.projectButtons{
+ 
+   
+border: 1px solid;
+    padding: 8px 12px;
+   width: 100px;
+}
+
+.projectButtons > a > button{
+    
+  
+    font-size: 16px;
+}

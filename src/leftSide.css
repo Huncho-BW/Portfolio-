@@ -1,0 +1,40 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&family=Iceland&family=Libre+Baskerville:ital,wght@0,400..700;1,400..700&display=swap');
+
+
+@media (min-width: 1024px){
+
+    .imgBoder{
+        border: 1px solid;
+        width: 194px;
+        height: 175px;
+        padding: 15px;
+        
+    }
+
+    .imgSize{
+        width: 164px;
+        height: 148px;
+        object-fit: cover;
+        
+    }
+
+    .leftFont{
+font-size: 14px;
+font-weight: 400;
+font-family: "Iceland", sans-serif;
+letter-spacing: 7.5%;
+    }
+    .subLeftFont{
+ font-size: 18px;
+ font-weight: 700;
+font-family: "Big Shoulders", sans-serif;
+letter-spacing: 7.5%;
+
+color: #60A5FA;
+    }
+
+}

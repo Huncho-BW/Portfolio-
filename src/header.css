@@ -1,0 +1,43 @@
+@media (min-width: 1024px) {
+
+    .headerFram{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       
+    }
+
+    .leftHeader{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .techIcon{
+        width: 22px;
+        transition: transform 0.3s;
+    }
+
+    .techIcon:hover{
+        transform: scale(1.15);
+    }
+
+    .rightHeader{
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .projectCount{
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .language{
+        display: flex;
+            gap: 12px;
+            align-items: center;
+    }
+}

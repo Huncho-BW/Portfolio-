@@ -1,0 +1,124 @@
+
+
+
+@media (min-width: 1024px){
+    .heroHeader{
+    max-width: 1400px;
+        margin: 0 auto;
+    }
+    .herohead{
+        display:flex;
+        justify-content: center;
+
+    gap: 50px;
+    max-width: 1400px;
+        margin: 0 auto;
+        
+        
+       
+    }
+
+    .subHoreHead{
+        display: grid;
+           grid-template-columns: 1fr  2fr 1fr;
+        gap: 20px;
+        
+            align-items: center;
+    }
+
+    .heroFont{
+    font-size: xx-large;
+        font-weight: 800;
+        
+        letter-spacing: 8px;
+       
+    }
+
+
+    .subHeroFont{
+        font-size: xx-large;
+            font-weight: 800;
+            letter-spacing: 8px;
+            
+    }
+
+    .heroInfo{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        justify-self: center;
+            align-self: center;
+
+    }
+    .heroProtriat{
+     display: flex;
+    flex-direction: column;
+  
+    
+    
+    }
+
+        .heroProtriat img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+           
+        }
+
+    .heroExp{
+display: flex;
+    flex-direction: column;
+   
+        gap: 10px;
+        justify-self: center;
+            align-self: center;
+    }
+
+    .subFont{
+        font-weight: 600;
+        font-size: large;
+    }
+
+    .subPFont{
+       
+    }
+
+    .expFont{
+        font-weight: 600;
+            font-size: large;
+    }
+    .subexpfont{
+        font-weight: 600;
+        font-size: small;
+    }
+
+    .heroProtriat{
+        display: flex;
+        justify-content: center;
+      
+       height:500px ;
+       width: 500px;
+            object-fit: cover;
+            border-radius: 20px;
+    }
+
+    .heroButton{
+        padding: 12px 12px;
+            border-radius: 8px;
+            border: 1px solid ;
+            display: flex;
+           font-size: 12px;
+            gap: 10px;
+            transition: .3s;
+            text-wrap: none;
+            display: flex;
+            
+            
+    }
+
+    
+
+    .heroButton:hover {
+        transform: translateY(-3px);
+    }
+}
