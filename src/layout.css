@@ -2,27 +2,29 @@
 
 
 
-.wrap{
-    height: 100vh;
+
+
+@media (min-width: 1024px){
+.wrap {
+        height: 100vh;
         padding: 10px 30px;
         display: flex;
         flex-direction: column;
         overflow: hidden;
         gap: 5px;
-       
-}
 
-.techIcons{
-    display: flex;
-    gap: 8px;
-}
+    }
 
-.sectionNavigation{
-    display: flex ;
-    gap: 20px;
-}
+    .techIcons {
+        display: flex;
+        gap: 8px;
+    }
 
-@media (min-width: 1024px){
+    .sectionNavigation {
+        display: flex;
+        gap: 20px;
+    }
+
 .layout {
    flex: 1;
         display: grid;
@@ -57,20 +59,150 @@
 }
 
 
-@media (min-width: 641px) and (max-width: 1023px){
+@media (min-width: 640px) and (max-width: 1023px){
+
+.wrap {
+        
+        height: 100%;
+        padding: 10px 20px;
+        display: flex;
+        flex-direction: column;
+       overflow: hidden;
+        gap: 5px;
+
+    }
+
+        .techIcons {
+            display: flex;
+            gap: 8px;
+        }
+    
+        .sectionNavigation {
+            display: flex;
+            gap: 20px;
+        }
+
 .layout {
         display: grid;
-        grid-template-columns: 260px 1fr;
+        grid-template-columns: 200px 1fr;
         min-height: 100vh;
+        position: relative;
     }
+
+
+          .center {
+              position: relative;
+              overflow: hidden;
+              overflow-y: auto;
+              min-height: 0;
+              height: 100%;
+              scrollbar-width: none;
+              -ms-overflow-style: none;
+              border: 1px solid;
+              padding: 20px;
+    
+          }
+
+
+      
+          
+          .center::-webkit-scrollbar {
+              display: none;
+          }
+    
+          .navSec {
+              position: fixed;
+    
+              bottom: 10px;
+              left: 50%;
+              transform: translateX(-50%);
+          }
+
+          .rightSide{
+            grid-column: 2;
+            justify-self: 2;
+            display: block;
+
+            width: 100%;
+            padding: 30px 20px;
+            margin-top: 24px;
+          }
+
+         
+
+
 }
 
 
 @media (max-width: 640px){
     .layout {
-            display: grid;
-            grid-template-columns:  1fr ;
-            min-height: 100vh;
+            display: flex;
+           flex-direction: column;
+            height: 100%;
+        }
+
+                .wrap {
+                    min-height: 100vh;
+                    height: 100%;
+                    padding: 10px 20px;
+                    display: flex;
+                    flex-direction: column;
+                    overflow: hidden;
+                    gap: 5px;
+        
+                }
+        
+                .techIcons {
+                    display: flex;
+                    gap: 8px;
+                }
+        
+                .sectionNavigation {
+                    display: flex;
+                    gap: 20px;
+                }
+        
+                
+        
+                .center {
+                    position: relative;
+                    overflow-y: auto;
+                    min-height: 0;
+                    height: 100%;
+                    scrollbar-width: none;
+                    -ms-overflow-style: none;
+                    border: 1px solid;
+                    padding: 20px;
+                    display: block;
+                    width: 100%;
+        
+                }
+        
+        
+        
+        
+                .center::-webkit-scrollbar {
+                    display: none;
+                }
+        
+                .navSec {
+                    position: fixed;
+        
+                    bottom: 10px;
+                    left: 50%;
+                    transform: translateX(-50%);
+                }
+        
+                .rightSide {
+                   
+                    display: block;
+                    width: 100%;
+                    padding: 30px 20px;
+                    margin-top: 24px;
+                }
+
+        .leftSide{
+            display: none;
         }
 
 }

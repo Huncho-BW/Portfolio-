@@ -148,3 +148,313 @@ display: flex;
     border-color: #2563EB;
     }
 }
+
+
+@media (min-width:640px) and (max-width:1023px) {
+    .heroHead {
+            margin-bottom: 32px;
+        }
+    
+        .heroHeader {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+    
+        .herohead {
+            display: flex;
+            justify-content: center;
+    
+            gap: 30px;
+            max-width: 1400px;
+            margin: 0 auto;
+    
+    
+    
+        }
+    
+        .subHoreHead {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: 20px;
+    
+            align-items: center;
+        }
+    
+        .heroFont {
+            font-size: xx-large;
+            font-weight: 800;
+    
+            font-family: "Big Shoulders";
+            letter-spacing: 20%;
+    
+        }
+    
+    
+        .subHeroFont {
+            font-size: xx-large;
+            font-weight: 800;
+            letter-spacing: 8px;
+            font-family: "Big Shoulders";
+            letter-spacing: 20%;
+    
+        }
+    
+        .heroInfo {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            justify-self: center;
+            align-self: center;
+    
+        }
+    
+        .heroProtriat {
+            display: flex;
+            flex-direction: column;
+            justify-self: center;
+    
+            align-self: center;
+    
+    
+    
+        }
+    
+        .heroProtriat img {
+            min-width: 200px;
+            width: 100%;
+            min-height: 200px;
+            flex: 1 1;
+            object-fit: contain;
+    
+        }
+    
+        .heroExp {
+            display: flex;
+            flex-direction: column;
+    
+            gap: 20px;
+            justify-self: center;
+            align-self: center;
+    
+        }
+    
+        .subFont {
+            font-weight: 600;
+            font-size: medium;
+            font-family: "Big Shoulders";
+            letter-spacing: 7.5%;
+            
+        }
+    
+        .subPFont {
+            font-family: "Iceland";
+            font-size: small;
+            letter-spacing: 7.5%;
+            font-weight: 300;
+        }
+    
+    
+    
+        .expFont {
+            font-weight: 600;
+            font-size: 16px;
+            font-family: "Big Shoulders";
+            letter-spacing: 7.5%;
+        }
+    
+        .subexpfont {
+            font-weight: 600;
+            font-size: 14px;
+            font-family: "Iceland";
+            letter-spacing: 7.5%;
+        }
+    
+    
+    
+        .heroButton {
+            padding: 12px 12px;
+            border-radius: 8px;
+            border: 1px solid #1E293B;
+            display: flex;
+            font-size: 12px;
+            gap: 10px;
+    
+    
+            display: flex;
+            align-items: center;
+    
+            cursor: pointer;
+    
+            transition:
+                transform .25s ease,
+                box-shadow .25s ease,
+                border-color .25s ease;
+    
+    
+        }
+    
+    
+    
+        .heroButton:hover {
+            transform: translateY(-3px) scale(1.04);
+    
+            box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+            border-color: #2563EB;
+        }
+}
+
+
+@media (max-width:640px) {
+    
+    .heroHead {
+            
+        }
+    
+        .heroHeader {
+          
+            margin-bottom: 32px;
+                padding: 20px;
+                display: block;
+                width: 100%;
+        }
+    
+        .herohead {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+           
+    
+            
+    
+    
+    
+        }
+    
+        .subHoreHead {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+           
+           align-items: center;
+    
+           
+        }
+    
+        .heroFont {
+            font-size: xx-large;
+            font-weight: 800;
+    
+            font-family: "Big Shoulders";
+            letter-spacing: 20%;
+    
+        }
+    
+    
+        .subHeroFont {
+            font-size: xx-large;
+            font-weight: 800;
+            letter-spacing: 8px;
+            font-family: "Big Shoulders";
+            letter-spacing: 20%;
+    
+        }
+    
+        .heroInfo {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+           width: 100%;
+    
+        }
+    
+        .heroProtriat {
+            display: flex;
+            flex-direction: column;
+          
+    width: 100%;
+    
+    gap: 20px;
+        }
+    
+        .heroProtriat img {
+            min-width: 200px;
+            min-height: 200px;
+            flex: 1 1;
+            object-fit: contain;
+    
+        }
+    
+        .heroExp {
+            display: flex;
+            flex-direction: column;
+    
+            gap: 20px;
+            width: 100%;
+    
+        }
+    
+        .subFont {
+            font-weight: 600;
+            font-size: large;
+            font-family: "Big Shoulders";
+            letter-spacing: 7.5%;
+            text-wrap: nowrap;
+        }
+    
+        .subPFont {
+            font-family: "Iceland";
+            letter-spacing: 7.5%;
+            font-weight: 300;
+        }
+    
+    
+    
+        .expFont {
+            font-weight: 600;
+            font-size: 18px;
+            font-family: "Big Shoulders";
+            letter-spacing: 7.5%;
+        }
+    
+        .subexpfont {
+            font-weight: 600;
+            font-size: 16px;
+            font-family: "Iceland";
+            letter-spacing: 7.5%;
+        }
+    
+    
+    
+        .heroButton {
+            padding: 12px 12px;
+            border-radius: 8px;
+            border: 1px solid #1E293B;
+            display: flex;
+            font-size: 12px;
+            gap: 10px;
+    
+    
+            display: flex;
+            align-items: center;
+    
+            cursor: pointer;
+    
+            transition:
+                transform .25s ease,
+                box-shadow .25s ease,
+                border-color .25s ease;
+    
+    
+        }
+    
+    
+    
+        .heroButton:hover {
+            transform: translateY(-3px) scale(1.04);
+    
+            box-shadow: 0 8px 25px rgba(0, 0, 0, .15);
+            border-color: #2563EB;
+        }
+}

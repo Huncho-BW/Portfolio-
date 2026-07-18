@@ -18,28 +18,28 @@ export default function Project() {
       <motion.div
         initial={{ opacity: 0, y: 24 }}
         whileInView={{ opacity: 1, y: 0 }}
-        transition={{ duration: 0.4, delay: 0.6 }}
+        transition={{ duration: 0.4, delay: 0.4 }}
         className="projectFlow"
       >
         {project?.map((item) => (
           <motion.div
             initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.8 }}
+            transition={{ duration: 0.4, delay: 0.6 }}
             className="project-card"
             key={item.id}
           >
             <motion.img
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.9 }}
+              transition={{ duration: 0.4, delay: 0.8 }}
               src={item.image}
             />
 
             <motion.div
               initial={{ opacity: 0, y: 10 }}
               whileInView={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.4, delay: 0.11 }}
+              transition={{ duration: 0.4, delay: 0.1 }}
               className="projectInfo"
             >
               <div>

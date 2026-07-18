@@ -25,7 +25,7 @@ export default function Skill() {
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.5 }}
+            transition={{ duration: 0.4, delay: 0.4 }}
             className="skillHeader"
           >
             <h1>{item.skillName}</h1>
@@ -34,7 +34,7 @@ export default function Skill() {
           <motion.div
             initial={{ opacity: 0, y: 24 }}
             whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.4, delay: 0.6 }}
+            transition={{ duration: 0.4, delay: 0.5 }}
             className="skillStack"
           >
             {item.skillStack.map((subItem) => (
@@ -43,7 +43,7 @@ export default function Skill() {
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.4, delay: 0.11 }}
+                    transition={{ duration: 0.4, delay: 0.6 }}
                     className="subCover"
                   >
                     <span>{subItem.icon}</span>
@@ -53,7 +53,7 @@ export default function Skill() {
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.4, delay: 0.12 }}
+                    transition={{ duration: 0.4, delay: 0.7 }}
                   >
                     <p className="skillP">{subItem.discription}</p>
                   </motion.div>
@@ -61,7 +61,7 @@ export default function Skill() {
                   <motion.div
                     initial={{ opacity: 0, y: 10 }}
                     whileInView={{ opacity: 1, y: 0 }}
-                    transition={{ duration: 0.4, delay: 0.12 }}
+                    transition={{ duration: 0.4, delay: 0.8 }}
                     className="skill-stack"
                   >
                     {subItem.tag.map((tag) => (

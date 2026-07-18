@@ -1,3 +1,5 @@
+
+
 @media (min-width: 1024px) {
 
     .headerFram{
@@ -49,5 +51,121 @@
         font-family: "Big Shoulders";
             letter-spacing: 7.5%;
             font-weight: 600;
+    }
+}
+
+
+
+@media (min-width:700px) and (max-width: 1023px) {
+
+    .headerFram {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+    .leftHeader {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+
+    }
+
+    .techIcon {
+
+        transition: transform 0.3s;
+    }
+
+    .techIcon:hover {
+        transform: scale(1.15);
+    }
+
+    .rightHeader {
+        display: flex;
+        align-items: center;
+        gap: 20px;
+    }
+
+    .projectCount {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .projectCount>span {
+        font-family: "Iceland";
+        font-weight: 300;
+        letter-spacing: 7.5%;
+    }
+
+    .language {
+        display: flex;
+        gap: 12px;
+        align-items: center;
+    }
+
+    .language>span {
+        font-family: "Big Shoulders";
+        letter-spacing: 7.5%;
+        font-weight: 600;
+    }
+}
+
+
+@media (max-width:700px) {
+
+    .headerFram {
+        display: flex;
+       
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .leftHeader {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .techIcon {
+
+        transition: transform 0.3s;
+    }
+
+    .techIcon:hover {
+        transform: scale(1.15);
+    }
+
+    .rightHeader {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .projectCount {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .projectCount>span {
+        font-family: "Iceland";
+        
+        letter-spacing: 7.5%;
+    }
+
+    .language {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+    }
+
+    .language>span {
+        font-family: "Big Shoulders";
+        letter-spacing: 7.5%;
+        font-weight: 300;
     }
 }
