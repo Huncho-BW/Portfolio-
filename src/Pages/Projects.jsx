@@ -2,26 +2,54 @@ import React from "react";
 import { MoveUpRight } from "lucide-react";
 import avater from "../assets/avater7.jpg";
 import { project } from "../Myjson";
+import { delay } from "framer-motion";
+import { motion } from "framer-motion";
 export default function Project() {
   return (
-    <div className="">
-      <div>
-        <h1>project</h1>
-      </div>
-      {project.map((item) => (
-        <div className="projectFlow">
-          <div className="project-card">
-            <img src={avater} />
+    <div className="projectHead">
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, delay: 0.3 }}
+      >
+        <h1>PROJECT</h1>
+      </motion.div>
 
-            <div className="projectInfo">
+      <motion.div
+        initial={{ opacity: 0, y: 24 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.4, delay: 0.6 }}
+        className="projectFlow"
+      >
+        {project?.map((item) => (
+          <motion.div
+            initial={{ opacity: 0, y: 14 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.4, delay: 0.8 }}
+            className="project-card"
+            key={item.id}
+          >
+            <motion.img
+              initial={{ opacity: 0, y: 12 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: 0.9 }}
+              src={item.image}
+            />
+
+            <motion.div
+              initial={{ opacity: 0, y: 10 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.4, delay: 0.11 }}
+              className="projectInfo"
+            >
               <div>
-                <h2>{item.title}</h2>
-                <p>{item.discription}</p>
+                <h1>{item?.title}</h1>
+                <p>{item?.discription}</p>
               </div>
 
               <div className="tech-stack">
-                {item.tag.map((tag) => (
-                  <div className="">
+                {item?.tag?.map((tag) => (
+                  <div className="subTech">
                     <h1>{tag}</h1>
                   </div>
                 ))}
@@ -29,20 +57,20 @@ export default function Project() {
 
               <div className="pjo">
                 <div className="projectButtons">
-                  <a href={item.button.live}>
+                  <a href={item?.button?.live} target="_blank">
                     <button>Live Demo </button>
                   </a>
                 </div>
                 <div className="projectButtons">
-                  <a href={item.button.gitup}>
+                  <a href={item?.button?.gitup} target="_blank">
                     <button>GitHub</button>
                   </a>
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      ))}
+            </motion.div>
+          </motion.div>
+        ))}
+      </motion.div>
     </div>
   );
 }

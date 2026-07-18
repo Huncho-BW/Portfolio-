@@ -10,19 +10,19 @@ import Header from "./Header";
 export default function Component() {
   return (
     <>
-      <section id="home">
+      <section id="home" className="heroHead">
         <Home />
       </section>
 
-      <section id="skill">
+      <section id="skill" className="skillHead">
         <Skill />
       </section>
 
-      <section id="project">
+      <section id="project" className="projectHead">
         <Project />
       </section>
 
-      <section id="contact">
+      <section id="contact" className="contactHead">
         <Contact />
       </section>
     </>

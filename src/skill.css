@@ -1,11 +1,37 @@
+
+
+
+
+
+
+.skillHead{
+    margin-top: 34px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
 .skillHeader{
     display: flex; 
-    justify-content: center;
+    flex-direction: column;
+    
+    
    
 }
 .skillHeader h1 {
-    font-size: medium;
+    font-size: 20px;
+   font-family: "Big Shoulders";
+    
         font-weight: 600;
+        letter-spacing: 7.5%;
+        text-align: center;
+}
+
+.skillHeader p{
+    font-size: 14px;
+    font-family: "Iceland";
+    font-weight: 300;
+        letter-spacing: 7.5%;
+        text-align: center;
 }
 
 .skillStack{
@@ -17,14 +43,17 @@
 .skillCover{
     
     padding: 20px 20px;
-    background-color: white;
+    background-color:#111827;
     transition: 0.2s;
-   border: 1px solid;
-   
-    gap: 10px;
+   border: 1px solid #1E293B;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
    
     width: 100%;
     min-height:200px ;
+    transition: 0.5s ease
+          
    
 
 }
@@ -35,23 +64,27 @@
     gap: 10px;
 }
 
-.skillCover > div img{
-    width: 48px;
-    height: 48px;
-}
+
 .skillFont{
     font-size: 20px;
     font-weight: 600;
+    font-family: "Big Shoulders";
+    letter-spacing: 7.5%;
 }
 
 .skillP{
     font-size: 14px;
+    font-family: "Iceland";
+    letter-spacing: 7.5%;
+    font-weight: 300;
 }
 .skillCover:hover{
-    transform: translateY(-10px);
+    
    
-    background-color: orange;
-
+    transform: translateY(-8px);
+        border-color:#2563EB;
+        box-shadow: 0 10px 25px rgba(15, 23, 42, 0.15);
+background: #172033;
 }
 
 .skill-stack {
@@ -62,7 +95,7 @@
 }
 
 .skill-stack>div {
-    border: 1px solid;
+    border: 1px solid #1E293B;
 
 
     padding: 4px 8px;
@@ -71,5 +104,6 @@
 
 .skill-stack>div>h1 {
     font-size: 12px;
+    color: #94A3B8;
 
 }

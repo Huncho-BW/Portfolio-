@@ -1,0 +1,79 @@
+
+
+.rightSidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.status {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 14px;
+}
+
+.statusDot {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: var(--success);
+}
+
+.socialItem{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socialHeader{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.rightSystemFont{
+font-size: 18px;
+color:#F8FAFC;
+font-family: "Iceland";
+letter-spacing: 7.5%;
+font-weight: 400;
+
+}
+.rightP{
+    font-family: "Big Shoulders";
+    font-size: 18px;
+    letter-spacing: 7.5%;
+    color: #94A3B8;
+    letter-spacing: 7.5%;
+}
+.rightBoder{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.rightBorder {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    width: 100%;
+    padding: 8px 0;
+
+    text-decoration: none;
+    color: inherit;
+}
+
+
+
+
+
+.rightBorder:hover .rightP {
+    color: var(--primary-color);
+    
+}
+.rightBorder:hover .techIcon {
+    color: var(--primary-color);
+}

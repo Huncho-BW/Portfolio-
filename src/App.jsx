@@ -9,6 +9,7 @@ import "./home.css";
 import "./skill.css";
 import "./project.css";
 import "./contact.css";
+import "./rightSide.css";
 
 import { BrowserRouter, useRoutes } from "react-router-dom";
 ``;
