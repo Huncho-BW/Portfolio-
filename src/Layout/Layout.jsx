@@ -6,8 +6,10 @@ import RightSidebar from "./RightSidebar";
 import Component from "./Component";
 import Navbar from "./Navbar";
 import Header from "./Header";
+import { useState } from "react";
 
 export default function Layout() {
+  const [activeSection, setActiveSection] = useState("Home");
   return (
     <div className="wrap">
       <div className="wrapper">
@@ -20,10 +22,16 @@ export default function Layout() {
         </div>
 
         <main className="center">
-          <Component />
+          <Component
+            activeSection={activeSection}
+            setActiveSection={setActiveSection}
+          />
 
           <div className="navSec">
-            <SectionNavigation />
+            <SectionNavigation
+              activeSection={activeSection}
+              setActiveSection={setActiveSection}
+            />
           </div>
         </main>
         <div className="rightSide flex justify-end">

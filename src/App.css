@@ -6,6 +6,50 @@ body{
 }
 
 
+.sectionNavigation {
+    transition: opacity .4s ease;
+}
+
+.sectionNavigation.show {
+    opacity: 1;
+}
+
+.sectionNavigation.hide {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sectionNavigation>button {
+    position: relative;
+    padding: 10px 0;
+    color: var(--text-secondary);
+    transition: color .3s ease;
+}
+
+.sectionNavigation>button:hover {
+    color: var(--primary);
+}
+
+.sectionNavigation>button::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 2px;
+    width: 0;
+    height: 3px;
+    background: var(--primary);
+    transition: width .3s ease;
+}
+
+.sectionNavigation>button:hover::after,
+.sectionNavigation>button.active::after {
+    width: 100%;
+}
+
+.sectionNavigation>button.active {
+    color: var(--primary);
+}
+
 :root {
     --bg: #0B1120;
     --card: #111827;
