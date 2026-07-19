@@ -28,12 +28,6 @@ export default function Header() {
 
           <span>{numberProject} Projects</span>
         </div>
-
-        <div className="language">
-          <Languages size={18} />
-
-          <span>EN | FR</span>
-        </div>
       </div>
     </motion.div>
   );
