@@ -30,14 +30,18 @@ export const techStack = [
     name: "JavaScript",
   },
   { id: 4, icon: <FaReact size={22} color="#F8FAFC" />, name: "React" },
-  { id: 5, icon: <FaNodeJs size={22} color="#F8FAFC" />, name: "Node.js" },
-  { id: 6, icon: <SiExpress size={22} color="#F8FAFC" />, name: "Express" },
+
+  { id: 5, icon: <FaGitAlt size={22} color="#F8FAFC" />, name: "Git" },
+  {
+    id: 6,
+    icon: <RiTailwindCssFill size={22} color="#F8FAFC" />,
+    name: "Tailwind",
+  },
   {
     id: 7,
-    icon: <SiPostgresql size={22} color="#F8FAFC" />,
-    name: "PostgreSQL",
+    icon: <RiBootstrapLine size={22} color="#F8FAFC" />,
+    name: "Bootstrap",
   },
-  { id: 8, icon: <FaGitAlt size={22} color="#F8FAFC" />, name: "Git" },
 ];
 
 export const social = [
@@ -46,28 +50,28 @@ export const social = [
     title: "Github",
     icon: <FaGitAlt size={22} color="#F8FAFC" />,
     userName: "@Huncho-BW",
-    href: "Huncho-BW",
+    href: "https://github.com/Huncho-BW",
   },
   {
     id: 2,
     title: "twitter or X",
     icon: <FaXTwitter size={22} color="#F8FAFC" />,
     userName: "@adenugamichael",
-    href: "adenugamichael",
+    href: "https://x.com/AdenugaOmoyele",
   },
   {
     id: 3,
     title: "Linkin",
     icon: <FaLinkedin size={22} color="#F8FAFC" />,
     userName: "@Huncho-BW",
-    href: "Huncho-BW",
+    href: "https://www.linkedin.com/in/adenuga-omoyele-756063290/",
   },
   {
     id: 4,
     title: "Email",
     icon: <MdOutlineEmail size={22} color="#F8FAFC" />,
     userName: "adenugaomoyele@",
-    href: "adenugaomoyele7@gmail.com",
+    href: "mailto:adenugaomoyele7@gmail.com?subject=Let's work together",
   },
   {
     id: 5,
