@@ -4,11 +4,7 @@ export default function SectionNavigation({ activeSection, setActiveSection }) {
   const sections = ["Home", "Skills", "Project", "Contact"];
   const [showNav, setShowNav] = useState(true);
   const selectionButton = (section) => {
-    console.log(section);
-
     const element = document.getElementById(section);
-
-    console.log(element);
 
     element.scrollIntoView({
       behavior: "smooth",

@@ -1,12 +1,12 @@
 import React from "react";
-i;
+
 import gitIcon from "../assets/git-icon.svg";
 import avater from "../assets/myBusinessSuit.png";
 import { MoveUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 export default function Home() {
   const selectedContact = () => {
-    const element = document.getElementById("contact");
+    const element = document.getElementById("Contact");
     element.scrollIntoView({
       behavior: "smooth",
     });
