@@ -30,6 +30,7 @@ export default function Project() {
             key={item.id}
           >
             <motion.img
+              loading="lazy"
               initial={{ opacity: 0, y: 12 }}
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.8 }}

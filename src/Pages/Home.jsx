@@ -1,4 +1,5 @@
 import React from "react";
+i;
 import gitIcon from "../assets/git-icon.svg";
 import avater from "../assets/myBusinessSuit.png";
 import { MoveUpRight } from "lucide-react";
