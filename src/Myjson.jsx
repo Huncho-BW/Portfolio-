@@ -54,14 +54,14 @@ export const social = [
   },
   {
     id: 2,
-    title: "twitter or X",
+    title: "Twitter or X",
     icon: <FaXTwitter size={22} color="#F8FAFC" />,
     userName: "@adenugamichael",
     href: "https://x.com/AdenugaOmoyele",
   },
   {
     id: 3,
-    title: "Linkin",
+    title: "LinkedIn.",
     icon: <FaLinkedin size={22} color="#F8FAFC" />,
     userName: "@Huncho-BW",
     href: "https://www.linkedin.com/in/adenuga-omoyele-756063290/",
@@ -75,7 +75,7 @@ export const social = [
   },
   {
     id: 5,
-    title: "whatapp",
+    title: "WhatsApp",
     icon: <FaWhatsapp size={22} color="#F8FAFC" />,
     userName: "Huncho",
     href: "",

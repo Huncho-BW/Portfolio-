@@ -30,7 +30,7 @@ export default function LeftSidebar() {
 
         <div className="mt-[10px]">
           <span className="leftFont">Social</span>
-          <h1 className="subLeftFont">Open Connection</h1>
+          <h1 className="subLeftFont">Open to Opportunities</h1>
         </div>
       </div>
     </div>

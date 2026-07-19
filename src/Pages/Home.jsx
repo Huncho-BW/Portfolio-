@@ -1,7 +1,7 @@
 import React from "react";
 
 import gitIcon from "../assets/git-icon.svg";
-import avater from "../assets/myBusinessSuit.png";
+import avater from "../assets/myBusinessSuit-removebg-preview.png";
 import { MoveUpRight } from "lucide-react";
 import { motion } from "framer-motion";
 export default function Home() {
