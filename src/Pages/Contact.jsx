@@ -38,8 +38,8 @@ export default function Contact() {
         "service_bmd8tjo",
         "template_gfgbq1s",
         {
-          user_name: formData.userName,
-          user_email: formData.email,
+          name: formData.userName,
+          email: formData.email,
           message: formData.discribtion,
         },
         {
@@ -47,7 +47,7 @@ export default function Contact() {
         },
       )
       .then(() => {
-        alert("Message sent successfully 🚀");
+        alert("Message sent successfully ");
 
         setFormData({
           userName: "",
@@ -57,7 +57,7 @@ export default function Contact() {
       })
       .catch((error) => {
         console.log(error);
-        alert("Something went wrong ❌");
+        alert("Something went wrong ");
       });
   };
 
