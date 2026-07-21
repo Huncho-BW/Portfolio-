@@ -1,5 +1,5 @@
 import React from "react";
-import avater from "../../public/WhatsApp Image 2026-04-29 at 1.41.33 PM.jpeg";
+import avater from "../assets/myLeftAvatar.png";
 export default function LeftSidebar() {
   return (
     <div>
