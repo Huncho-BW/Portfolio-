@@ -66,8 +66,8 @@ export default function Home() {
           className="heroExp"
         >
           <div>
-            <h1 className="expFont">Experience</h1>
-            <span className="subexpfont">+2 Year </span>
+            <h1 className="expFont">Hands-on Experience</h1>
+            <span className="subexpfont">Modern & Responsive</span>
           </div>
           <div>
             <h1 className="expFont">Next Goal</h1>
