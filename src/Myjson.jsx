@@ -18,7 +18,7 @@ import { FaGithub } from "react-icons/fa";
 import { VscVscodeOutline } from "react-icons/vsc";
 import { TbBrandVite } from "react-icons/tb";
 import Finance from "./assets/mpersonalFinance.png";
-
+import HunchoMart from "./assets/hunchoMart.png";
 import HunchoScore from "./assets/huncho score.png";
 import Link from "./assets/link tree.png";
 export const techStack = [
@@ -78,13 +78,26 @@ export const social = [
     title: "WhatsApp",
     icon: <FaWhatsapp size={22} color="#F8FAFC" />,
     userName: "Huncho",
-    href: "",
+    href: "https://wa.me/2349161458239",
   },
 ];
 
 export const project = [
   {
     id: 1,
+    image: HunchoMart,
+    title: "Huncho mart",
+    discription:
+      "An e-commerce frontend built with React, integrated with a custom REST API built with Node.js and Express. The API is deployed with Render and supports product search, filtering, sorting, and pagination. ",
+    tag: ["React", "Axios", "Node.js", "Express.js", "REST API", "Render"],
+    button: {
+      live: " https://huncho-bw.github.io/HunchoMart/",
+      gitup: "https://github.com/Huncho-BW/HunchoMart/settings/pages",
+    },
+  },
+
+  {
+    id: 2,
     image: HunchoScore,
     title: "HunchoScore",
     discription:
@@ -97,7 +110,7 @@ export const project = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: Link,
     title: "LINK TREE",
     discription:
@@ -110,7 +123,7 @@ export const project = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: Finance,
     title: "Personal finance ",
     discription:

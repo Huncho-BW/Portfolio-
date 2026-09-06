@@ -4,6 +4,7 @@ import avater from "../assets/avater7.jpg";
 import { project } from "../Myjson";
 import { delay } from "framer-motion";
 import { motion } from "framer-motion";
+
 export default function Project() {
   return (
     <div className="projectHead">
@@ -26,7 +27,7 @@ export default function Project() {
             initial={{ opacity: 0, y: 14 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.4, delay: 0.6 }}
-            className="project-card"
+            className="project-card group"
             key={item.id}
           >
             <motion.img
@@ -35,6 +36,7 @@ export default function Project() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.4, delay: 0.8 }}
               src={item.image}
+              className="group-hover:scale-110 transition-transform duration-500"
             />
 
             <motion.div
@@ -59,9 +61,10 @@ export default function Project() {
               <div className="pjo">
                 <div className="projectButtons">
                   <a href={item?.button?.live} target="_blank">
-                    <button>Live Demo </button>
+                    <button>Live Demo</button>
                   </a>
                 </div>
+
                 <div className="projectButtons">
                   <a href={item?.button?.gitup} target="_blank">
                     <button>GitHub</button>
