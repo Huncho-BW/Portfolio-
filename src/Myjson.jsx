@@ -92,7 +92,7 @@ export const project = [
     tag: ["React", "Axios", "Node.js", "Express.js", "REST API", "Render"],
     button: {
       live: " https://huncho-bw.github.io/HunchoMart/",
-      gitup: "https://github.com/Huncho-BW/HunchoMart/settings/pages",
+      gitup: "https://github.com/Huncho-BW/HunchoMart",
     },
   },
 
