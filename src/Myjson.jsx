@@ -20,6 +20,7 @@ import { TbBrandVite } from "react-icons/tb";
 import Finance from "./assets/mpersonalFinance.png";
 import HunchoMart from "./assets/hunchoMart.png";
 import HunchoScore from "./assets/huncho score.png";
+import HoneyDaby from "./assets/HoneyDaby.png";
 import Link from "./assets/link tree.png";
 export const techStack = [
   { id: 1, icon: <FaHtml5 size={22} color="#F8FAFC" />, name: "HTML" },
@@ -85,6 +86,19 @@ export const social = [
 export const project = [
   {
     id: 1,
+    image: HoneyDaby,
+    title: "HoneyDaby Catering Service",
+    discription:
+      "A modern catering landing page built for HoneyDaby Catering Service, focused on creating a smooth, elegant, and responsive user experience. ",
+    tag: ["React", "CSS", "Framer Motion", "EmailJS"],
+    button: {
+      live: " https://huncho-bw.github.io/HoneyDarby/",
+      gitup: "https://github.com/Huncho-BW/HoneyDarby",
+    },
+  },
+
+  {
+    id: 2,
     image: HunchoMart,
     title: "Huncho mart",
     discription:
@@ -97,7 +111,7 @@ export const project = [
   },
 
   {
-    id: 2,
+    id: 3,
     image: HunchoScore,
     title: "HunchoScore",
     discription:
@@ -110,7 +124,7 @@ export const project = [
   },
 
   {
-    id: 3,
+    id: 4,
     image: Link,
     title: "LINK TREE",
     discription:
@@ -123,7 +137,7 @@ export const project = [
   },
 
   {
-    id: 4,
+    id: 5,
     image: Finance,
     title: "Personal finance ",
     discription:
