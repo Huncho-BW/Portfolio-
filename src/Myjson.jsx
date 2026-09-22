@@ -17,11 +17,14 @@ import { RiBootstrapLine } from "react-icons/ri";
 import { FaGithub } from "react-icons/fa";
 import { VscVscodeOutline } from "react-icons/vsc";
 import { TbBrandVite } from "react-icons/tb";
+import { SiNextdotjs } from "react-icons/si";
+
 import Finance from "./assets/mpersonalFinance.png";
 import HunchoMart from "./assets/hunchoMart.png";
 import HunchoScore from "./assets/huncho score.png";
 import HoneyDaby from "./assets/HoneyDaby.png";
 import Link from "./assets/link tree.png";
+
 export const techStack = [
   { id: 1, icon: <FaHtml5 size={22} color="#F8FAFC" />, name: "HTML" },
   { id: 2, icon: <FaCss3Alt size={22} color="#F8FAFC" />, name: "css" },
@@ -31,15 +34,19 @@ export const techStack = [
     name: "JavaScript",
   },
   { id: 4, icon: <FaReact size={22} color="#F8FAFC" />, name: "React" },
-
-  { id: 5, icon: <FaGitAlt size={22} color="#F8FAFC" />, name: "Git" },
   {
-    id: 6,
+    id: 5,
+    icon: <SiNextdotjs size={22} color="#F8FAFC" />,
+    name: "Next.js",
+  },
+  { id: 6, icon: <FaGitAlt size={22} color="#F8FAFC" />, name: "Git" },
+  {
+    id: 7,
     icon: <RiTailwindCssFill size={22} color="#F8FAFC" />,
     name: "Tailwind",
   },
   {
-    id: 7,
+    id: 8,
     icon: <RiBootstrapLine size={22} color="#F8FAFC" />,
     name: "Bootstrap",
   },
@@ -89,11 +96,11 @@ export const project = [
     image: HoneyDaby,
     title: "HoneyDaby Catering Service",
     discription:
-      "A modern catering landing page built for HoneyDaby Catering Service, focused on creating a smooth, elegant, and responsive user experience. ",
-    tag: ["React", "CSS", "Framer Motion", "EmailJS"],
+      "A modern catering landing page built with Next.js for HoneyDaby Catering Service, focused on creating a smooth, elegant, and responsive user experience.",
+    tag: ["Next.js", "React", "CSS", "Vercel"],
     button: {
-      live: " https://huncho-bw.github.io/HoneyDarby/",
-      gitup: "https://github.com/Huncho-BW/HoneyDarby",
+      live: "https://honey-daby.vercel.app/",
+      gitup: "https://github.com/Huncho-BW/HoneyDaby",
     },
   },
 
@@ -102,7 +109,7 @@ export const project = [
     image: HunchoMart,
     title: "Huncho mart",
     discription:
-      "An e-commerce frontend built with React, integrated with a custom REST API built with Node.js and Express. The API is deployed with Render and supports product search, filtering, sorting, and pagination. ",
+      "An e-commerce frontend built with React, integrated with a custom REST API built with Node.js and Express. The API is deployed with Render and supports product search, filtering, sorting, and pagination.",
     tag: ["React", "Axios", "Node.js", "Express.js", "REST API", "Render"],
     button: {
       live: " https://huncho-bw.github.io/HunchoMart/",
@@ -128,7 +135,7 @@ export const project = [
     image: Link,
     title: "LINK TREE",
     discription:
-      "A customizable Linktree-inspired portfolio that allows users to organize and share multiple social links from a single page. ",
+      "A customizable Linktree-inspired portfolio that allows users to organize and share multiple social links from a single page.",
     tag: ["React", "CSS", "JavaScript"],
     button: {
       live: "https://huncho-bw.github.io/My-Link-Tree/",
@@ -193,6 +200,14 @@ export const skill = [
       },
       {
         id: 2,
+        name: "NEXT.JS",
+        icon: <SiNextdotjs size={22} color="#F8FAFC" />,
+        discription:
+          "Building modern React applications with Next.js, file-based routing, layouts, and production-ready deployment workflows.",
+        tag: ["App Router", "Layouts", "Vercel"],
+      },
+      {
+        id: 3,
         name: "TAILWIND",
         icon: <RiTailwindCssFill size={22} color="#F8FAFC" />,
         discription:
@@ -200,7 +215,7 @@ export const skill = [
         tag: ["Utility First", "Flexbox", "GRID"],
       },
       {
-        id: 3,
+        id: 4,
         name: "BOOTSTRAP",
         icon: <RiBootstrapLine size={22} color="#F8FAFC" />,
         discription:
