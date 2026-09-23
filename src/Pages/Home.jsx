@@ -71,7 +71,7 @@ export default function Home() {
           </div>
           <div>
             <h1 className="expFont">Next Goal</h1>
-            <span className="subexpfont">TYPESCRIPT</span>
+            <span className="subexpfont">WEB 3 </span>
           </div>
           <div>
             <h1 className="expFont">Currently</h1>
